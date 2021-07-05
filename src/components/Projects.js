@@ -1,12 +1,12 @@
 import React from "react";
-import Projectcard from "./Projectcard";
-import { Consumer } from "../context";
+import Projectcard from "./ProjectCard";
+import { Provider } from "./context";
 
 function Projects()
 {
   return(
 
-    <Consumer>
+    <Provider>
     {value => {
       const{ projects }=value;
       return(
@@ -39,7 +39,7 @@ function Projects()
     );
 
     }}
-  </Consumer>
+  </Provider>
   ); 
 
     

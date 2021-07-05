@@ -16,7 +16,7 @@ import ProjectPage from "./components/ProjectPage";
 import BlogPage from "./components/BlogPage";
 import HomePage from "./components/HomePage";
 import AddProject from "./components/AddProject";
-import {Provider} from "./context";
+import {Provider} from "./components/context";
 function App() {
   return(
   <Provider>
